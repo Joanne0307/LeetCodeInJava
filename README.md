@@ -1,3 +1,2 @@
 # LeetCodeInJava
-
-# 412 Fizz Buzz   
++ # 412 Fizz Buzz   
