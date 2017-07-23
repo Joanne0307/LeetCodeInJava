@@ -1,0 +1,19 @@
+HashSet 
+# Backed by Hash Table(actually a HashMap instance).
+# Iteration order of the HashSet is not the same as the input order of the element of the HashSet. 
+# Permits null value.
+# The basic operations(add, remove, contains, size) of HashSet run in O(1)
+  , assuming the hash function disperses the elements properly among the buckets.
+#  The expected time is O(1), since the average number of keys in each bucket of the HashSet is bound by a small constant. 
+   At the worst case (if all the keys are mapped to the same bucket), the search would take linear time
+   , but unless you have a terrible hashCode method, the worst case is not expected to ever happen.
+# Not synchronized. Should be wrapped using Collections.synchronizedSet.
+    Set s = Collections.synchronizedSet(new HashSet(...));
+# The iterators returned by this class's iterator method are fail-fast.
+# No dulplicate objects are allowed in HashSet.
+# HashSet thinks two objects identical only when their hashCode() and equal() function return the same value
+  , it use equal() to identify whether this object is equal to one of the objects having the same hashCode().  
+
+Referenced List
+# https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html
+# https://stackoverflow.com/questions/25247854/hashset-contains-performance
