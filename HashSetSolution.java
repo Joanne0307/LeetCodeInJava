@@ -9,6 +9,11 @@
  *     }
  * }
  */ 
+
+/*
+  Time complexity: O(m+n)
+  Space complexity: O(m) or O(n)
+*/
  
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
