@@ -2,7 +2,14 @@ a. Two pointer solution
 Case 1:
  If two linked list have same length, then each pointer will find the intersection node at the same time before they reach end node of each linked list.
 Case 2: 
- If two linked list have different length, then after the shorter linked list reach the end node(the next node is the head of longer linked list), the pointer of the shorter list do extra step count is definitely equal to the subtraction of two linked list. As a result 
+ (1) If two linked list with different length have intersection, then after the shorter linked list reach the end node(the next 
+ node is the head of longer linked list), the extra step count which the pointer of the shorter list do is definitely equal to the 
+ subtraction of two linked list. As a result, when the pointer of longer linked list reach the end node(the next node is the head 
+ of shorter linked list), the left step count of the both linked list pointer is definitely equal to each other (Case 1:two linked 
+ list have same length).
+ (2) If two linked list with different length have no intersection, both pointer will reach the end node of other linkedlist after 
+ the both pointer reach the head of other linkedlist.  
+ 
 
 
 b. HashSetSolution
