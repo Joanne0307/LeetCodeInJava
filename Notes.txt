@@ -1,3 +1,11 @@
+a. Two pointer solution
+Case 1:
+ If two linked list have same length, then each pointer will find the intersection node at the same time before they reach end node of each linked list.
+Case 2: 
+ If two linked list have different length, then after the shorter linked list reach the end node(the next node is the head of longer linked list), the pointer of the shorter list do extra step count is definitely equal to the subtraction of two linked list. As a result 
+
+
+b. HashSetSolution
 HashSet 
 # Backed by Hash Table(actually a HashMap instance).
 # Iteration order of the HashSet is not the same as the input order of the element of the HashSet. 
