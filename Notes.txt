@@ -1,6 +1,9 @@
 a. Two pointer solution
 Case 1:
- If two linked list have same length, then each pointer will find the intersection node at the same time before they reach end node of each linked list.
+ (1)If two linked list with same length have intersection, then each pointer will find the intersection node at the same time 
+ before they reach end node of each linked list.
+ (2)If two linked list with same length have no intersection, then each pointer will reach the end node at the same time.
+ 
 Case 2: 
  (1) If two linked list with different length have intersection, then after the shorter linked list reach the end node(the next 
  node is the head of longer linked list), the extra step count which the pointer of the shorter list do is definitely equal to the 
