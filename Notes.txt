@@ -19,6 +19,7 @@ Case 2:  two linked list with different length
  count between two linked list, becuase of Definition1). 
  As a result, when the pointer of longer linked list reach the end node(the next node is the head of shorter linked list), the 
  left step count of the both linked list pointer is definitely equal to each other (Case 1:two linked list have same length).
+ In other words, the left step counts of both linked list is equal to the node count of shorter linked list.
  
  (2) no intersection:  If two linked list with different length have no intersection, both pointer will reach the end node of 
  the other linkedlist after the both pointer reach the head of the other linkedlist.  
