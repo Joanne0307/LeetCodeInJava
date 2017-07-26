@@ -1,6 +1,7 @@
 a. Two pointer solution
 
-Definition1: The length of two linked list intersection linked list is definitely shorter or equal to the length of shorter linkedlist.
+Definition1: The length of two linked list intersection linked list is definitely shorter or equal to the length of shorter 
+linkedlist.
 Definition2: Do not konw the length of linkedlist until the pointer reach to the end node.  
 
 Case 1:  two linked list with same length
@@ -13,12 +14,14 @@ Case 1:  two linked list with same length
 Case 2:  two linked list with different length
  (1) intersection: 
  After the shorter linked list reach the end node, the next node is the head of longer linked list. 
- the step count of the pointer of the shorter list do before get to is definitely equal to 
- the subtraction of two linked list(we don't need to consider the subtraction of two linked list, becuase Definition1). As a 
- result, when the pointer of longer linked list reach the end node(the next node is the head of shorter linked list), the left 
- step count of the both linked list pointer is definitely equal to each other (Case 1:two linked list have same length).
- (2) no intersection:  If two linked list with different length have no intersection, both pointer will reach the end node of other linkedlist 
- after the both pointer reach the head of other linkedlist.  
+ The extra step count of the pointer of the shorter list do before the longer list pointer reach head of shorter linked list is 
+ definitely equal to the subtraction of node count between two linked list(we don't care the subtraction of node 
+ count between two linked list, becuase of Definition1). 
+ As a result, when the pointer of longer linked list reach the end node(the next node is the head of shorter linked list), the 
+ left step count of the both linked list pointer is definitely equal to each other (Case 1:two linked list have same length).
+ 
+ (2) no intersection:  If two linked list with different length have no intersection, both pointer will reach the end node of 
+ the other linkedlist after the both pointer reach the head of the other linkedlist.  
  
 
 
